@@ -31,9 +31,9 @@ $w = $cp->trainPS($trainIn, $trainOut, $error, $iter, $vel);
 The result of this call is a weight matrix corresponding to the neural network trained with the training set introduced.
 
 Now, everything is ready to test the network. You just have to make the following function call:
-<pre><code>$test = $pc->matrix2Vector($trainIn, 1);
-$res = $pc->prodMatrix($test, $w);
-$pc->signMatrix($res);
+<pre><code>$test = $cp->matrix2Vector($trainIn, 1);
+$res = $cp->prodMatrix($test, $w);
+$out = $cp->signMatrix($res);
 </code></pre>
 Where 1 represents the input value you want to test.
 The result should be the value assigned in the Training Set (output value).
