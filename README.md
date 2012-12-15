@@ -38,8 +38,8 @@ $pc->signMatrix($res);
 Where 1 represents the input value you want to test.
 The result should be the value assigned in the Training Set (output value).
 
-You can also test the network with altered values ​​and let this approximates the results.
-For examplen, with this input value:
+You can also test the network with altered values and let this approximates the results.
+For example, with this input value:
 <pre><code>array(1,1,1,-1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,-1,1,1,1)</code></pre>
 
 License
