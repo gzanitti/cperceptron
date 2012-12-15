@@ -41,3 +41,8 @@ The result should be the value assigned in the Training Set (output value).
 You can also test the network with altered values ​​and let this approximates the results.
 For examplen, with this input value:
 <pre><code>array(1,1,1,-1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,-1,1,1,1)</code></pre>
+
+License
+===========
+
+cPerceptron is released under the MIT License.
